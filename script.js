@@ -13,3 +13,13 @@ button.addEventListener('click', function() {
     button.style.backgroundColor = 'black';
     button.style.color = 'white';
 });
+
+function showSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'flex';
+}
+
+function hideSibar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'none';
+}
